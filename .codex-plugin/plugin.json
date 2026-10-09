@@ -1,0 +1,28 @@
+{
+  "interface": {
+    "displayName": "Mail.ru Mail Operator",
+    "shortDescription": "Почта Mail.ru через собственный сервер",
+    "longDescription": "Управление собственным почтовым ящиком Mail.ru через IMAP/SMTP с помощью Python-модуля на доверенном сервере и отдельно подключённого удалённого инструмента. Поиск, чтение, папки, черновики, отправка и вложения. Данные доступа не входят в пакет. Плагин не предоставляет самостоятельный MCP-сервер.",
+    "developerName": "Mail.ru Mail Operator project",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Проверь доступность моего Mail.ru и покажи непрочитанные письма.",
+      "Найди письмо по теме или отправителю.",
+      "Подготовь черновик ответа с вложением; ничего не отправляй без моего поручения."
+    ]
+  },
+  "name": "mailru-mail-operator",
+  "version": "0.2.0",
+  "description": "Self-hosted Mail.ru IMAP/SMTP mail operator skill and Python backend, with secure attachment staging.",
+  "keywords": [
+    "mailru",
+    "email",
+    "imap",
+    "smtp",
+    "attachments"
+  ],
+  "skills": "./skills"
+}
